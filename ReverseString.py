@@ -1,7 +1,12 @@
-s = input("Input a string: ")
-count = -1
-for i in s:
-    count += 1
-    print(f"str{[count]} = {i.replace(' ', 'SPACE')}")
+a = "I like turtles"
+b = []
+c = ""
+d = []
+for i in a:
+    b.append(i)
 
-print(s[::-1].replace(" ", ""))
+b.reverse()
+for i in b:
+    c = c + i
+
+print(c)
