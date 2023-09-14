@@ -1,0 +1,5 @@
+number1 = int(input("Type a number: "))
+number2 = int(input("Type the next number: "))
+number3 = int(input("Type the third number: "))
+number4 = int(input("Type the last number: "))
+print(f"The answer is {(number1 + number2) * (number3 - number4)}")
